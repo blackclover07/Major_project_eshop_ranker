@@ -1,0 +1,146 @@
+# =========================
+
+# Python
+
+# =========================
+
+**pycache**/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# =========================
+
+# Django
+
+# =========================
+
+*.log
+logs/
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Django migrations (optional)
+
+# Uncomment if you want to ignore migrations
+
+*/migrations/*
+
+!*/migrations/**init**.py
+
+# =========================
+
+# Environment variables
+
+# =========================
+
+.env
+.env.local
+.env.development
+.env.production
+
+# =========================
+
+# IDE / Editor
+
+# =========================
+
+.idea/
+
+
+# =========================
+
+# OS files
+
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+
+# ML / Data Science
+
+# =========================
+
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.onnx
+
+# Large datasets
+
+data/
+datasets/
+*.csv
+
+# =========================
+
+# Logs
+
+# =========================
+
+*.log
+logs/
+
+# =========================
+
+# Build / Distribution
+
+# =========================
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+
+# Cache
+
+# =========================
+
+.cache/
+.pytest_cache/
+
+# =========================
+
+# Jupyter Notebook
+
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+
+# Node (if frontend added later)
+
+# =========================
+
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# =========================
+
+# Secrets
+
+# =========================
+
+secrets.json
+credentials.json
